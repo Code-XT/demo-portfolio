@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/background-vector.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "minimal vector image";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hi! I'm Rahul, a full-stack developer who enjoys building sites & apps that I find fun or interesting. My focus is React (Next JS) & C++.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "NextJS",
+  "C++",
+  "SQL/NoSQL DB",
+  "WebSockets",
+  "Python",
+  "Communication"
 ];
 
 /**
@@ -45,7 +45,10 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  `Highly motivated and freshly graduated software developer with a passion for coding and problem-solving. Solid foundation in programming
+languages such as C++, JavaScript and Python .Have in-depth understanding of system and hardware architecture, giving low level perspective
+of programming. Skilled in developing and debugging software applications. Eager to apply knowledge and learn new technologies as a
+Software Developer to contribute to a dynamic and collaborative team environment.`;
 
 const About = () => {
   return (
